@@ -20,3 +20,18 @@ Docker image：https://hub.docker.com/r/yychang0409/crawler
     * Company: 台積電、ASML、Applied Materials、SUMCO
     * Count: 出現次數
     * Text: 該月以台積電和該供應商作為Query後爬取到的網頁文字
+
+* 文字雲 (wordCloud.py)
+  * 將爬取到的文字使用jieba進行斷詞(需下載dict.txt: https://github.com/ldkrsi/jieba-zh_TW/blob/master/jieba/dict.txt)
+  * 針對斷詞結果去除停用詞、數字、部分字母
+  * 使用 [wordcloud](https://amueller.github.io/word_cloud/) 產生過去幾個月的文字雲
+
+
+* 聲量圖表 (grafana folder)
+  * 將統計資料用 Grafana 建立四家公司的綜合聲量圖表，以及個別公司的聲量圖表
+  * X 軸為日期、Y 軸為聲量
+
+* 網頁 (website folder)
+  * 首頁 (index.html)：顯示專案組別資訊
+  * 聲量圖 (line_chart.html)：根據爬蟲結果，以折線圖呈現台積電及3家供應商過去幾個月的聲量變化
+  * 文字雲 (word_cloud.html)：依時間先後呈現文字雲圖片，並列出前三大關鍵字與出現次數
