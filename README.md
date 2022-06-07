@@ -12,7 +12,7 @@ Docker image：https://hub.docker.com/r/yychang0409/crawler
 
 * 資料分析 (analysis.py)
   * 將爬取到的URL獲得網頁中的文字
-  * 將網頁中的文字使用ckip進行斷詞
+  * 將網頁中的文字使用ckip進行斷詞 (需下載data: https://drive.google.com/drive/folders/105IKCb88evUyLKlLondvDBoh7Dy_I1tm)
   * 統計網頁中台積電及3家供應商的文字出現次數
   * 結果含有 4 個欄位：Date、Company、Count、Text
     * Date: 今年5月-去年6月
