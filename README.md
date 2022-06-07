@@ -22,7 +22,7 @@ Docker image：https://hub.docker.com/r/yychang0409/crawler
     * Text: 該月以台積電和該供應商作為Query後爬取到的網頁文字
 
 * 文字雲 (wordCloud.py)
-  * 將爬取到的文字使用jieba進行斷詞(需下載dict.txt: https://github.com/ldkrsi/jieba-zh_TW/blob/master/jieba/dict.txt)
+  * 將爬取到的文字使用jieba進行斷詞 (需下載dict.txt: https://github.com/ldkrsi/jieba-zh_TW/blob/master/jieba/dict.txt)
   * 針對斷詞結果去除停用詞、數字、部分字母
   * 使用 [wordcloud](https://amueller.github.io/word_cloud/) 產生過去幾個月的文字雲
 
