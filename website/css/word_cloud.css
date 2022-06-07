@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap');
+@import url("nav+footer.css");
+@import url("style.css");
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	font-family:"微軟正黑體";
+	background:rgb(255, 255, 255);
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+/*section*/
+section{
+	width:90%;
+	position:relative;	
+	margin:70px auto;
+}
+
+section h1{
+	margin:20px auto 30px;	
+	color:#4a596a;	
+	text-align:center;
+	font-size:40px;
+	font-weight:600;
+	font-family: 'Noto Serif TC', serif;
+	letter-spacing:5px;
+}
+
+article{
+	width:100%;
+	box-sizing:border-box;
+	margin-bottom:30px;
+	padding:10px;
+	background:rgba(0, 0, 0, 0.05);
+	letter-spacing:3px;
+}
+
+article .picbox, article .desbox{
+	align-items: center;
+	box-sizing:border-box;
+	padding:10px;
+}
+
+article .desbox{
+	line-height:1em;/*1.5倍行高*/
+}
+
+article .picbox{	
+	justify-content:center;
+}
+
+.desbox h2{
+	color:#4a596a;
+	line-height:1.5em;
+	padding:5px 0px;
+	font-family: 'Noto Serif TC', serif;
+}
+
+.desbox p{
+	text-align:justify;
+	padding:8px 0px;
+}
+
+mark{
+	background:#4a596a;
+	color:#fff;
+	padding:5px;
+}
+
+.key{
+	margin: 15px 0px 0px;
+}
+
+.picbox img{
+	width:100%;
+}
+
+/*footer*/
+footer{
+	clear:both;
+}

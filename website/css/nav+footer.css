@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*header*/
+header img{	
+	position:fixed;
+	top:10px;
+	left:20px;
+	z-index:1001;
+	height:30px;
+	width:120px;
+}
+
+
+/*nav*/
+nav{	
+	display:block;	
+	position:fixed;
+	top:0px;
+	z-index:1000;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	background: rgb(74, 89, 106, 0.9);
+	font-family: 'Noto Serif TC', serif;
+	letter-spacing:5px;
+	overflow: visible;
+}
+
+nav ul li{
+	display: inline-block;
+	position:relative;
+	border-bottom:solid #fff 0px;
+	overflow: visible;
+}
+
+nav ul li a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	width:100%;
+	padding:15px 20px;
+	overflow: visible;
+}
+
+nav ul li a:hover{
+	background:#5c93b9;
+}
+
+
+/*footer*/
+footer{
+	position:relative;
+	padding:10px 0px;
+	background:#4a596a;
+	text-align:center;
+	color:#fff;
+	font-size:13px;
+}
+
+footer a{
+	padding:0px 2px;
+	color:#fff;
+	font-size:20px;
+}
+
