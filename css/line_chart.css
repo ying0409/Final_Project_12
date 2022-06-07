@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap');
+@import url("nav+footer.css");
+@import url("style.css");
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	overflow: auto;
+}
+
+body{
+	font-family:"微軟正黑體";
+}
+
+/*section*/
+
+section{
+	width:90%;
+	position:relative;	
+	margin:50px auto 0px;
+}
+
+section h1{
+	margin:20px auto 30px;	
+	color:#4a596a;	
+	text-align:center;
+	font-size:40px;
+	font-weight:600;
+	font-family: 'Noto Serif TC', serif;
+	letter-spacing:5px;
+}
+
+#vg-tooltip-element {
+	font-size: 20px;
+	color: #3e3c38;
+}
+
+/*footer*/
+footer{
+	clear:both;
+}
